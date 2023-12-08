@@ -8,10 +8,6 @@ public class Circle implements Shape{
         this.radius = radius;
     }
 
-    @Override
-    public void shape() {
-        System.out.println("My shape is round");
-    }
 
     @Override
     public double calculateArea() {
