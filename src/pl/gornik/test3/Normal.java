@@ -12,6 +12,6 @@ public class Normal extends Coffe implements CoffeCup{
     }
 
     public String toString() {
-        return this.getName() + "ziaren kawy: " + getNumberOfBeans() + "wody: " + getAmountOfWater();
+        return this.getName() + " ziaren kawy: " + getNumberOfBeans() + " wody: " + getAmountOfWater();
     }
 }

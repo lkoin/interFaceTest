@@ -12,6 +12,6 @@ public class Capuchino extends Coffe implements CoffeCup{
         this.setAmountofMilk(100);
     }
         public String toString() {
-            return this.getName() + "ziaren kawy: " + getNumberOfBeans() + "wody: " + getAmountOfWater()+ "mleko: "+ getAmountofMilk();
+            return this.getName() + " ziaren kawy: " + getNumberOfBeans() + " wody: " + getAmountOfWater()+ " mleko: "+ getAmountofMilk();
     }
 }

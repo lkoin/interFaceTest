@@ -1,6 +1,6 @@
 package pl.gornik.test3;
 
-public class Coffe {
+public class Coffe implements DoubleCoffe {
     private String name;
     private int numberOfBeans;
     private double amountOfWater;
@@ -51,5 +51,12 @@ public class Coffe {
                 ", amountOfWater=" + amountOfWater +
                 ", amountofMilk=" + amountofMilk +
                 '}';
+    }
+
+    @Override
+    public void makeDoubleCoffe() {
+        this.setName(this.getName()+ "x2");
+        this.setNumberOfBeans(this.getNumberOfBeans()*2);
+        this.setAmountOfWater(this.getAmountOfWater()*20);
     }
 }
