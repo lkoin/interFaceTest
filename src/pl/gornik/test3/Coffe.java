@@ -9,6 +9,8 @@ public class Coffe {
     public Coffe() {
     }
 
+
+
     public String getName() {
         return name;
     }
@@ -39,5 +41,15 @@ public class Coffe {
 
     public void setAmountofMilk(double amountofMilk) {
         this.amountofMilk = amountofMilk;
+    }
+
+    @Override
+    public String toString() {
+        return "Coffe{" +
+                "name='" + name + '\'' +
+                ", numberOfBeans=" + numberOfBeans +
+                ", amountOfWater=" + amountOfWater +
+                ", amountofMilk=" + amountofMilk +
+                '}';
     }
 }
