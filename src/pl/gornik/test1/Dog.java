@@ -1,6 +1,6 @@
 package pl.gornik.test1;
 
-public class Dog implements Animal,Runnable {
+public class Dog implements Runable {
     private String name;
 
     public String getName() {

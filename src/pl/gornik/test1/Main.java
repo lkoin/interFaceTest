@@ -16,5 +16,10 @@ public class Main {
         System.out.println(shark.getName()+"daje głos: ");
         shark.Swim();
         shark.makeSound();
+        System.out.println("-------------------------------");
+        FlyingFIsh fishfly = new FlyingFIsh("Bogdan");
+        fishfly.fly();
+        fishfly.Swim();
+        fishfly.makeSound();
     }
 }

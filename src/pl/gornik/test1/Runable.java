@@ -1,5 +1,5 @@
 package pl.gornik.test1;
 
-public interface Runable {
+public interface Runable extends Animal{
     void run();
 }

@@ -1,6 +1,6 @@
 package pl.gornik.test1;
 
-public class Eagle implements Animal,Flying {
+public class Eagle implements Flying {
     private String name;
 
     public String getName() {

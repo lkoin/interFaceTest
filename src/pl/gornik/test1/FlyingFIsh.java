@@ -1,19 +1,24 @@
 package pl.gornik.test1;
 
-public class Shark implements Swimming{
+public class FlyingFIsh implements Swimming,Flying{
     private String name;
 
     public String getName() {
         return name;
     }
 
-    public Shark(String name) {
+    public FlyingFIsh(String name) {
         this.name = name;
     }
 
     @Override
     public void makeSound() {
-        System.out.println("Buul bull");
+        System.out.println("bul bul");
+    }
+
+    @Override
+    public void fly() {
+        System.out.println("Flying");
     }
 
     @Override
