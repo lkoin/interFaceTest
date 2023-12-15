@@ -1,24 +1,11 @@
 package pl.gornik.test3;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        Espresso espresso = new Espresso();
-        Capuchino capuchino = new Capuchino();
-        Normal normal = new Normal();
-        espresso.makeDoubleCoffe();
-        System.out.println(espresso);
-        espresso.makeCoffe();
-        System.out.println(espresso);
-        System.out.println("-----------------------------");
-        capuchino.makeCoffe();
-        System.out.println(capuchino);
-        System.out.println("-----------------------------");
-        normal.makeCoffe();
-        System.out.println(normal);
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Menu ekspresu:");
 
-        System.out.println("-----------------------------");
-        System.out.println("Kawa x2");
-        espresso.makeDoubleCoffe();
-        System.out.println(espresso);
     }
 }
