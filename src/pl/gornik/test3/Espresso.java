@@ -1,6 +1,6 @@
 package pl.gornik.test3;
 
-public class Espresso extends Coffe implements CoffeCup{
+public class Espresso extends Coffe implements CoffeCup,DoubleCoffe{
 
     public Espresso() {
     }
@@ -11,6 +11,15 @@ public class Espresso extends Coffe implements CoffeCup{
         this.setNumberOfBeans(30);
         this.setAmountOfWater(20);
     }
+
+    @Override
+    public void makeDoubleCoffe() {
+        makeCoffe();
+        this.setName(this.getName()+ " x2");
+        this.setNumberOfBeans(this.getNumberOfBeans()*2);
+        this.setAmountOfWater(this.getAmountOfWater()*20);
+    }
+
 
     public String toString() {
         return this.getName() + " ziaren kawy: " + getNumberOfBeans() + " wody: " + getAmountOfWater();
