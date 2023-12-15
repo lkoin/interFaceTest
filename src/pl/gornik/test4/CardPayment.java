@@ -2,7 +2,7 @@ package pl.gornik.test4;
 
 import java.util.Scanner;
 
-public class CardPayment implements payment{
+public class CardPayment implements Payment {
     @Override
     public void makePayment(double amount) {
         Scanner scanner = new Scanner(System.in);

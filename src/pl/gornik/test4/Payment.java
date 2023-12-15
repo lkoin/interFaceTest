@@ -1,5 +1,5 @@
 package pl.gornik.test4;
 
-public interface payment {
+public interface Payment {
     void makePayment(double amount);
 }
