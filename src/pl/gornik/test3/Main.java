@@ -5,6 +5,8 @@ public class Main {
         Espresso espresso = new Espresso();
         Capuchino capuchino = new Capuchino();
         Normal normal = new Normal();
+        espresso.makeDoubleCoffe();
+        System.out.println(espresso);
         espresso.makeCoffe();
         System.out.println(espresso);
         System.out.println("-----------------------------");
